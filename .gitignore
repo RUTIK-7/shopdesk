@@ -8,6 +8,3 @@ venv/
 dist/
 build/
 *.log
-
-# README
-README.md
