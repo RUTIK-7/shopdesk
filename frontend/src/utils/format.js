@@ -1,0 +1,2 @@
+export function formatINR(n){ return new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:2}).format(n); }
+export function formatDate(s){ try { return new Date(s).toLocaleString('en-IN'); } catch { return s; } }
